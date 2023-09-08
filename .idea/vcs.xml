@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codegen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/grpc-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-grpc-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-rest-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest-grpc-client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../my-grpc-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../my-rest-server" vcs="Git" />
+  </component>
+</project>

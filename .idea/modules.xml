@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/codegen/codegen.iml" filepath="$PROJECT_DIR$/codegen/codegen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpc-rest-benchmark.iml" filepath="$PROJECT_DIR$/grpc-rest-benchmark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpc-server/grpc-server.iml" filepath="$PROJECT_DIR$/grpc-server/grpc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-client/my-client.iml" filepath="$PROJECT_DIR$/my-client/my-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-grpc-client/rest-grpc-client.iml" filepath="$PROJECT_DIR$/rest-grpc-client/rest-grpc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-server/rest-server.iml" filepath="$PROJECT_DIR$/rest-server/rest-server.iml" />
+    </modules>
+  </component>
+</project>
