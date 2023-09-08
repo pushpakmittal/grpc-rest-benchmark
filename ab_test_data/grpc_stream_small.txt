@@ -1,0 +1,57 @@
+
+C:\Users\ryzen>ab -g grpc_stream_small.data -l -n 1000 -c 1 http://localhost:8080/grpc/stream/user/100
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /grpc/stream/user/100
+Document Length:        Variable
+
+Concurrency Level:      1
+Time taken for tests:   13.108 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      17307128 bytes
+HTML transferred:       17209128 bytes
+Requests per second:    76.29 [#/sec] (mean)
+Time per request:       13.108 [ms] (mean)
+Time per request:       13.108 [ms] (mean, across all concurrent requests)
+Transfer rate:          1289.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.6      0      16
+Processing:     0   13  15.5     16     459
+Waiting:        0    2  14.5      0     435
+Total:          0   13  15.5     16     459
+
+Percentage of the requests served within a certain time (ms)
+  50%     16
+  66%     16
+  75%     16
+  80%     16
+  90%     16
+  95%     16
+  98%     19
+  99%     23
+ 100%    459 (longest request)
+
+C:\Users\ryzen>

@@ -1,0 +1,57 @@
+
+C:\Users\ryzen>ab -g grpc_unary_medium.data -l -n 1000 -c 5 http://localhost:8080/grpc/unary/user/100
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /grpc/unary/user/100
+Document Length:        Variable
+
+Concurrency Level:      5
+Time taken for tests:   19.741 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      17307868 bytes
+HTML transferred:       17209868 bytes
+Requests per second:    50.66 [#/sec] (mean)
+Time per request:       98.705 [ms] (mean)
+Time per request:       19.741 [ms] (mean, across all concurrent requests)
+Transfer rate:          856.20 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.2      0      14
+Processing:    81   98   4.4     98     131
+Waiting:        0    2   2.5      2      16
+Total:         81   99   4.4     98     131
+
+Percentage of the requests served within a certain time (ms)
+  50%     98
+  66%    100
+  75%    101
+  80%    101
+  90%    103
+  95%    105
+  98%    108
+  99%    110
+ 100%    131 (longest request)
+
+C:\Users\ryzen>
